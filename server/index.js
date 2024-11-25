@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 mongoose.connect(
-  "mongodb+srv://monika:monikahsmonu123@cluster0.uekpu.mongodb.net/mernapp?retryWrites=true&w=majority&appName=Cluster0"
+  "ur mongodb  connection string "
 );
 
 app.get("/getUsers", (req, res) => {
